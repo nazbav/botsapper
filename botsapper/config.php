@@ -1,5 +1,6 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
 const ACCESS_TOKEN = '';
 const SECRET_KEY = '';
 const CONFIRMATION_TOKEN = '';
@@ -14,4 +15,4 @@ const DB_NAME = '';
 const DB_USER = 'usw';
 const DB_PASSWORD = '';
 const COIN_API_HOST = 'https://coinbyte.ru/api/service/';
-CONST PAY_LINK = 'vk.com/coin#x(айди владельца без скобок)_10000000_1024_1';
+const PAY_LINK = 'vk.com/coin#x(айди владельца без скобок)_10000000_1024_1';

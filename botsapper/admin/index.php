@@ -27,12 +27,12 @@
                         <label class="description" for="element_7">Конфиг </label>
                         <div>
                     <textarea id="element_7" name="element_7" cols="80" rows="100"
-                              class="element textarea medium"><?= file_get_contents("../config_bot.php"); ?></textarea>
+                              class="element textarea medium"><?= file_get_contents('../config_bot.php'); ?></textarea>
                         </div>
                     </li>
                     <?php
                     if (isset($_POST['element_7'])) {
-                        file_put_contents("../config_bot.php", $_POST['element_7']);
+                        file_put_contents('../config_bot.php', $_POST['element_7']);
                     }
                 }
             }

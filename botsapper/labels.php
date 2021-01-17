@@ -1,9 +1,16 @@
 <?php
-declare(strict_types = 1);
-function labels_map($cell_info) {
+
+declare(strict_types=1);
+function labels_map($cell_info)
+{
     if (!is_string($cell_info)) {
-        if ($cell_info == 11) return '✅';
-        if ($cell_info == 10) return '🎯';
+        if ($cell_info == 11) {
+            return '✅';
+        }
+        if ($cell_info == 10) {
+            return '🎯';
+        }
+
         return '&#4448;';
     }
     switch ($cell_info) {
@@ -44,12 +51,13 @@ function labels_map($cell_info) {
             return '💰';
             break;
         default:
-            return (string)$cell_info;
+            return (string) $cell_info;
             break;
     }
 }
 
-function labels_end_map($cell_info) {
+function labels_end_map($cell_info)
+{
     if (is_string($cell_info)) {
         return $label = '⛏';
     }
@@ -92,7 +100,7 @@ function labels_end_map($cell_info) {
             return '💰';
             break;
         default:
-            return (string)$cell_info;
+            return (string) $cell_info;
             break;
     }
 }
