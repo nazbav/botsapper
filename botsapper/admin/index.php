@@ -20,7 +20,7 @@
         <ul>
             <?php
             if (isset($_POST['element_666'])) {
-                if ($_POST['element_666'] === 'sssr?228?1991?lol?vkcoin?spullae?mulae') {
+                if ($_POST['element_666'] === 'parol') {
                     ?>
 
                     <li id="li_7">
